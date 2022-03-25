@@ -20,6 +20,21 @@ body {
   color: #555;
 }
 
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdf2e9;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  align-items: center;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+/* Hero section */
 .hero-section {
   background: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
@@ -54,7 +69,8 @@ body {
   margin-bottom: 4.8rem;
 }
 
-.btn:link, .btn:visited {
+.btn:link,
+.btn:visited {
   font-family: inherit;
   text-decoration: none;
   font-size: 2rem;
@@ -87,7 +103,6 @@ body {
   background: #fff;
   color: #555;
 }
-
 
 .btn-outline:hover,
 .btn-outline:active {
