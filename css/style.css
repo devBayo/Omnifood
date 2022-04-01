@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Rubik-Regular;
-  src: url(/fonts/Rubik-Regular.ttf);
+  src: url(../fonts/Rubik-Regular.ttf);
 }
 
 html {
@@ -30,6 +30,40 @@ header {
   align-items: center;
 }
 
+/* Nav */
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.9rem;
+  background: #e67e22;
+  color: #fff;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background: #cf711f;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
 .logo {
   height: 2.2rem;
 }
@@ -45,7 +79,7 @@ header {
   grid-template-columns: 1fr 1fr;
   max-width: 100rem;
   margin: 0 auto;
-  padding: 0 0.2rem;
+  padding: 0 3.2rem;
   gap: 9.6rem;
   align-items: center;
 }
@@ -141,4 +175,9 @@ header {
 
 .deliver-text span {
   color: #e67e22;
+}
+
+/* How Section */
+.section-how {
+  
 }
