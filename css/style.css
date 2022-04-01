@@ -179,5 +179,33 @@ header {
 
 /* How Section */
 .section-how {
-  
+  padding: 9.6rem 0;
+  background: brown;
+}
+
+.section-how div {
+  padding: 10rem;
+  font-size: 5rem;
+}
+
+.section-how div:first-child{
+  background: #333;
+}
+
+.section-how div:nth-child(2){
+  background: #fdf2e9;
+}
+
+.section-how div:last-child{
+  background: aliceblue;
+}
+
+.section-how div:nth-child(3){
+  background: #cf711f;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+  grid-template-columns: repeat(2, 1fr);
 }
