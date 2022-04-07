@@ -8,7 +8,7 @@
     <title>Omnifood</title>
   </head>
   <body>
-    <header class="header">
+    <header>
       <img class="logo" src="./images/omnifood-logo.png" alt="" />
       <nav class="main-nav">
         <ul class="main-nav-list">
@@ -23,7 +23,7 @@
 
     <main>
       <section class="hero-section">
-        <div class="hero">
+        <div class="hero container">
           <div class="hero-textbox">
             <h1 class="heading-primary">
               A healthy meal delivered to your door, every single day
@@ -73,11 +73,73 @@
         </div>
       </section>
     </main>
-    <section class="section-how grid">
-      <div>Lorem ipsum dolor sit amet.</div>
-      <div>Lorem ipsum dolor sit amet.</div>
-      <div>Lorem ipsum dolor sit amet.</div>
-      <div>Lorem ipsum dolor sit amet.</div>
+    <section class="section-how">
+      <div class="container">
+        <span class="sub-heading"> How it works </span>
+        <h2 class="heading-secondary">
+          Your daily dose of health in three simple steps
+        </h2>
+      </div>
+      <div class="container grid grid-col-2">
+        <!-- Step One -->
+        <div class="step-textbox">
+          <p class="step-number">01</p>
+          <h3 class="heading-tertiary">Tell us what you like (and what not)</h3>
+          <p class="step-description">
+            Never again waste time thinking about what to eat! Omnifood AI will
+            create a 100% personalized weekly meal plan just for you. It makes
+            sure you get all the nutrients and vitamins you need, no matter what
+            diet you follow!
+          </p>
+        </div>
+        <div class="step-imgbox">
+          <img
+            src="./images/app/app-screen-1.png"
+            class="step-img"
+            alt="First Step"
+          />
+        </div>
+        <!-- End of step one -->
+
+        <!-- Step two -->
+        <div class="step-imgbox">
+          <img
+            src="./images/app/app-screen-2.png"
+            class="step-img"
+            alt="First Step"
+          />
+        </div>
+        <div class="step-textbox">
+          <p class="step-number">02</p>
+          <h3 class="heading-tertiary">Approve your weekly meal plan</h3>
+          <p class="step-description">
+            Once per week, approve the meal plan generated for you by Omnifood
+            AI. You can change ingredients, swap entire meals, or even add your
+            own recipes.
+          </p>
+        </div>
+
+        <!-- End of step two -->
+
+        <!-- Step three -->
+        <div class="step-textbox">
+          <p class="step-number">03</p>
+          <h3 class="heading-tertiary">Receive meals at convenient time</h3>
+          <p class="step-description">
+            Best chefs in town will cook your selected meal every day, and we
+            will deliver it to your door whenever works best for you. You can
+            change delivery schedule and address daily!
+          </p>
+        </div>
+        <div class="step-imgbox">
+          <img
+            src="./images/app/app-screen-3.png"
+            class="step-img"
+            alt="First Step"
+          />
+        </div>
+        <!-- End of step three -->
+      </div>
     </section>
   </body>
 </html>

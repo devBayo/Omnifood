@@ -34,7 +34,7 @@ header {
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 .main-nav-link:link,
@@ -68,7 +68,9 @@ header {
   height: 2.2rem;
 }
 
+/* ************ */
 /* Hero section */
+/* ************* */
 .hero-section {
   background: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
@@ -77,9 +79,6 @@ header {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 100rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
   gap: 9.6rem;
   align-items: center;
 }
@@ -177,35 +176,48 @@ header {
   color: #e67e22;
 }
 
-/* How Section */
-.section-how {
-  padding: 9.6rem 0;
-  background: brown;
-}
-
-.section-how div {
-  padding: 10rem;
-  font-size: 5rem;
-}
-
-.section-how div:first-child{
-  background: #333;
-}
-
-.section-how div:nth-child(2){
-  background: #fdf2e9;
-}
-
-.section-how div:last-child{
-  background: aliceblue;
-}
-
-.section-how div:nth-child(3){
-  background: #cf711f;
-}
-
+/* Utility Classes */
 .grid {
   display: grid;
   gap: 9.6rem;
+}
+
+.grid-col-2 {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+/* How Section */
+.section-how {
+  padding: 9.6rem 0;
+  /* background: brown; */
+}
+/* 
+.section-how div div {
+  padding: 10rem;
+  padding: 5rem;
+  font-size: 5rem;
+  background: #fdf2e9;
+} */
+
+.step-img {
+  width: 50%;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
 }
