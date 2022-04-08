@@ -125,6 +125,21 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.step-imgbox::before {
+  content: "";
+  display: block;
+  width: 60%;
+  padding-bottom: 60%;
+  background: #fdf2e9;
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .step-img {
