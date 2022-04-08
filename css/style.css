@@ -137,20 +137,19 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
+  z-index: -1;
 }
 
 .step-imgbox::before {
   width: 60%;
   padding-bottom: 60%;
   background: #fdf2e9;
-  z-index: -2;
 }
 
 .step-imgbox::after {
   width: 50%;
   padding-bottom: 50%;
   background: #fae5d3;
-  z-index: -1;
 }
 
 .step-img {
