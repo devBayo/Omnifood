@@ -1,3 +1,53 @@
+/* ********** */
+/* Header */
+/* ********** */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdf2e9;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  align-items: center;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+/* Nav */
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.9rem;
+  background: #e67e22;
+  color: #fff;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background: #cf711f;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
 /* ************ */
 /* Hero section */
 /* ************* */
@@ -13,13 +63,6 @@
   align-items: center;
 }
 
-.heading-primary {
-  font-size: 4.2rem;
-  line-height: 1.08;
-  margin-bottom: 3rem;
-  font-weight: 700;
-}
-
 .hero-img {
   width: 100%;
 }
@@ -28,48 +71,6 @@
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
-}
-
-.btn:link,
-.btn:visited {
-  font-family: inherit;
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 1.6rem 3.2rem;
-  border-radius: 0.9rem;
-  border: none;
-  display: inline-block;
-  transition: background 0.3s;
-}
-
-.btn:hover {
-  cursor: pointer;
-}
-
-.btn-full:link,
-.btn-full:visited {
-  color: #fff;
-  background: #e67e22;
-  margin-right: 1.5rem;
-}
-
-.btn-full:hover,
-.btn-full:active {
-  background: #cf711f;
-}
-
-.btn-outline:link,
-.btn-outline:visited {
-  background: #fff;
-  color: #555;
-}
-
-.btn-outline:hover,
-.btn-outline:active {
-  background-color: #fdf2e9;
-  /* border: 3px solid #fff; */
-  box-shadow: inset 0 0 0 3px #fff;
 }
 
 .deliver-meals {
@@ -104,25 +105,11 @@
   color: #e67e22;
 }
 
-/* Utility */
-.heading-primary,
-.heading-secondary,
-.heading-tertiary {
-  color: #333;
-  letter-spacing: -0.5px;
-}
-
 /* ************ */
 /* How Section */
 /* *********** */
 .section-how {
   padding: 9.6rem 0;
-}
-
-.heading-secondary {
-  font-size: 4.4rem;
-  line-height: 1.2;
-  margin-bottom: 9.6rem;
 }
 
 .sub-heading {
@@ -134,8 +121,14 @@
   margin-bottom: 0.75px;
 }
 
+.step-imgbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .step-img {
-  width: 50%;
+  width: 35%;
 }
 
 .step-number {
@@ -143,12 +136,6 @@
   font-weight: 600;
   color: #eee;
   margin-bottom: 1.2rem;
-}
-
-.heading-tertiary {
-  font-size: 3.6rem;
-  line-height: 1.2;
-  margin-bottom: 3.2rem;
 }
 
 .step-description {
