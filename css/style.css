@@ -202,7 +202,7 @@ header {
 /* *********** */
 /* Section Meals */
 /* *********** */
-.section-meals{
+.section-meals {
   padding: 9.6rem 0;
 }
 
@@ -235,4 +235,28 @@ header {
   height: 2.4rem;
   width: 2.4rem;
   color: #e67e22;
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background-color: #51c766;
+  color: #333;
+  border-radius: 10rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 1.1rem;
+  overflow: hidden;
+}
+
+.meal-description {
+  padding: 4.8rem;
 }
