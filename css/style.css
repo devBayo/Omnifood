@@ -173,7 +173,7 @@ header {
 /* ********* */
 
 .section-featured {
-  padding: 4.8rem 0;
+  padding: 4.8rem 0 3.2rem 0;
 }
 
 .heading-featured-in {
@@ -183,14 +183,22 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.75px;
   margin-bottom: 2.4rem;
+  color: #888;
 }
 
-.image-list {
-  list-style: none;
+/* Review */
+.logos {
   display: flex;
-  gap: 7rem;
+  justify-content: space-around;
 }
 
-.image-list li img {
-  width: 100%;
+.logos img {
+  /* width: 100%; */
+  height: 3rem;
+  filter: brightness(0%);
+  opacity: 50%;
 }
+
+/* *********** */
+/* Section Meals */
+/* *********** */
