@@ -168,3 +168,29 @@ header {
   line-height: 1.6;
 }
 
+/* *********** */
+/* Featured Section */
+/* ********* */
+
+.section-featured {
+  padding: 4.8rem 0;
+}
+
+.heading-featured-in {
+  font-family: Rubik-Bold;
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 2.4rem;
+}
+
+.image-list {
+  list-style: none;
+  display: flex;
+  gap: 7rem;
+}
+
+.image-list li img {
+  width: 100%;
+}
