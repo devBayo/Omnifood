@@ -204,6 +204,9 @@ header {
 /* *********** */
 .meal-attributes {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .meal-title {
