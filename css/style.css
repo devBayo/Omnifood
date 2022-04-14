@@ -202,6 +202,17 @@ header {
 /* *********** */
 /* Section Meals */
 /* *********** */
+.meal-attributes {
+  list-style: none;
+}
+
+.meal-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
 .meal-image {
   width: 100%;
 }
