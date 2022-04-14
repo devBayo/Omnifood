@@ -141,19 +141,19 @@ header {
 }
 
 .step-imgbox::before {
-  width: 60%;
-  padding-bottom: 60%;
+  width: 55%;
+  padding-bottom: 55%;
   background: #fdf2e9;
 }
 
 .step-imgbox::after {
-  width: 50%;
-  padding-bottom: 50%;
+  width: 45%;
+  padding-bottom: 45%;
   background: #fae5d3;
 }
 
 .step-img {
-  width: 40%;
+  width: 35%;
 }
 
 .step-number {
@@ -167,3 +167,4 @@ header {
   font-size: 2rem;
   line-height: 1.6;
 }
+
