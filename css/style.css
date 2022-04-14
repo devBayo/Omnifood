@@ -291,3 +291,8 @@ header {
   align-items: center;
   gap: 1.6rem;
 }
+
+.all-recipe {
+  text-align: center;
+  font-size: 1.8rem;
+}
