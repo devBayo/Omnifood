@@ -121,3 +121,7 @@ body {
   color: #333;
   letter-spacing: -0.5px;
 }
+
+strong {
+  font-weight: 500;
+}
