@@ -244,11 +244,22 @@ header {
 .tag {
   display: inline-block;
   padding: 0.4rem 0.8rem;
-  background-color: #51c766;
   color: #333;
   border-radius: 10rem;
   font-size: 1.2rem;
+  font-weight: 600;
   text-transform: uppercase;
+}
+
+.tag--vegetarian {
+  background-color: #51c766;
+}
+
+.tag--paleo {
+  background: #ffd43d;
+}
+.tag--vegan {
+  background: #94d82d;
 }
 
 .meal {
