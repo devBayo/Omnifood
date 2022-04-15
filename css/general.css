@@ -132,9 +132,10 @@ strong {
 
 .link:link,
 .link:visited {
+  display: inline-block;
   color: #e67e22;
   text-decoration: none;
-  border-bottom: 1px solid currentColor;
+  border-bottom: 2px solid currentColor;
   padding-bottom: 2px;
   transition: all 0.3s;
 }
@@ -142,5 +143,9 @@ strong {
 .link:hover,
 .link:active {
   color: #cf711f;
-  border: none;
+  border-bottom: 2px solid transparent;
+}
+
+.center-text {
+  text-align: center;
 }
