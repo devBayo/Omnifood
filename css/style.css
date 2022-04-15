@@ -308,6 +308,7 @@ header {
 /* ******** */
 .section-testimonials {
   padding: 9.6rem 0;
+  background: #fdf2e9;
 }
 
 .testimonials {
@@ -335,4 +336,16 @@ header {
 
 .testimonial-container .heading-secondary {
   font-size: 4.3rem;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
 }
