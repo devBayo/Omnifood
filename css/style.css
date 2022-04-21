@@ -368,3 +368,15 @@ header {
 .gallery-item img:hover {
   transform: scale(1.15);
 }
+
+/* --------------------- */
+/* Section Pricing */
+/* --------------------- */
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.section-pricing .sub-heading,
+.section-pricing .heading-secondary {
+  text-align: center;
+}
