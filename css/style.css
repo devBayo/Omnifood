@@ -375,3 +375,24 @@
 .section-pricing {
   padding: 9.6rem 0;
 }
+
+.plan-header {
+  margin-bottom: 4.8rem;
+  text-align: center;
+}
+
+.plan-name{
+  color: #cf711f;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+}
+
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
