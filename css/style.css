@@ -1,7 +1,7 @@
 /* ********** */
 /* Header */
 /* ********** */
-header {
+.header {
   display: flex;
   justify-content: space-between;
   background-color: #fdf2e9;
@@ -374,9 +374,4 @@ header {
 /* --------------------- */
 .section-pricing {
   padding: 9.6rem 0;
-}
-
-.section-pricing .sub-heading,
-.section-pricing .heading-secondary {
-  text-align: center;
 }
