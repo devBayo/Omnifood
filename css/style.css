@@ -597,6 +597,9 @@ form *:focus {
 
 .copyright {
   margin-top: auto;
+  font-size: 1.4rem;
+  color: #767676;
+  line-height: 1.6;
 }
 
 .social-icon {
