@@ -558,9 +558,25 @@ form *:focus {
   padding: 9.6rem 0;
 }
 
-
 .footer-heading {
   font-size: 1.8rem;
   font-weight: 500;
   margin-bottom: 3.2rem;
+}
+
+.footer-nav {
+  list-style: none;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #767676;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
 }
