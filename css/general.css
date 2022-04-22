@@ -6,6 +6,9 @@
 
 *:focus {
   outline: none;
+  offset: 8px;
+  /* outline: 4px dotted blue; */
+  box-shadow: 0 0 0 0.8rem #e67d22bd;
 }
 
 @font-face {
