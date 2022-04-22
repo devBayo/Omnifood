@@ -378,7 +378,7 @@
 
 .pricing-plan {
   width: 75%;
-  border-radius: 11px;
+  border-radius: 1.1rem;
 }
 
 .pricing-plan--starter {
@@ -390,6 +390,22 @@
 .pricing-plan--complete {
   background: #fdf2e9;
   padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  content: "Best Value";
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  background: #ffd43d;
+  position: absolute;
+  padding: 0.8rem 8rem;
+  top: 6%;
+  right: -18%;
+  transform: rotate(45deg);
 }
 
 .plan-header {
