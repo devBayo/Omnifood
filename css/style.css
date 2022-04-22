@@ -528,7 +528,8 @@ label {
   margin-bottom: 1.2rem;
 }
 
-input, select {
+input,
+select {
   width: 100%;
   padding: 1.2rem;
   font-family: inherit;
@@ -540,10 +541,10 @@ input, select {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
-input::placeholder{
-  color: #aaa;
-}
+/* input:focus {
+  outline: none;
+} */
 
-.btn--form {
-  
+input::placeholder {
+  color: #aaa;
 }

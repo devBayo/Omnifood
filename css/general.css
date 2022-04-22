@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 @font-face {
   font-family: Rubik-Regular;
   src: url('../fonts/Rubik-Regular.ttf');
@@ -38,6 +42,18 @@ body {
   border: none;
   display: inline-block;
   transition: background 0.3s;
+}
+
+.btn--form {
+  background: #45260a;
+  color: #fdf2e9;
+  padding: 1.2rem;
+  align-self: end;
+}
+
+.btn--form:hover {
+  color: #555;
+  background: #fff;
 }
 
 .btn:hover,
