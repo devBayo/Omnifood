@@ -541,10 +541,12 @@ select {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* input:focus {
-  outline: none;
-} */
-
 input::placeholder {
   color: #aaa;
+}
+
+form *:focus {
+  outline: none;
+  offset: 8px;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }

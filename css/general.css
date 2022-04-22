@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-*:focus {
-  outline: none;
-  offset: 8px;
-  /* outline: 4px dotted blue; */
-  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
-}
-
 @font-face {
   font-family: Rubik-Regular;
   src: url('../fonts/Rubik-Regular.ttf');
