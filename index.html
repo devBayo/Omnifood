@@ -507,9 +507,35 @@
                 first meal is on us!
               </p>
               <form action="">
-                <label for="">Full Name</label>
-                <input type="text" placeholder="John Smith" />
-                <input type="email" placeholder="me@example.com" />
+                <div>
+                  <label for="fullname">Full Name</label>
+                  <input
+                    type="text"
+                    required
+                    placeholder="John Smith"
+                    id="fullname"
+                  />
+                </div>
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    type="email"
+                    required
+                    id="email"
+                    placeholder="me@example.com"
+                  />
+                </div>
+                <div>
+                  <label for="where">Where did you hear about us?</label>
+                  <select required name="" id="where">
+                    <option value="">Please choose one option:</option>
+                    <option value="friend">Friends and family</option>
+                    <option value="youtube">YouTube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ads">Facebook Ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
                 <button class="btn">Sign Up Now</button>
               </form>
             </div>
