@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: Rubik-Regular;
-  src: url("../fonts/Rubik-Regular.ttf");
+  src: url('../fonts/Rubik-Regular.ttf');
 }
 
 @font-face {
   font-family: Rubik-Bold;
-  src: url("../fonts/Rubik-Bold.ttf");
+  src: url('../fonts/Rubik-Bold.ttf');
 }
 
 html {
@@ -27,7 +27,8 @@ body {
 
 /* Utility Classes */
 .btn:link,
-.btn:visited {
+.btn:visited,
+.btn {
   font-family: inherit;
   text-decoration: none;
   font-size: 2rem;
@@ -39,7 +40,8 @@ body {
   transition: background 0.3s;
 }
 
-.btn:hover {
+.btn:hover,
+.btn {
   cursor: pointer;
 }
 
