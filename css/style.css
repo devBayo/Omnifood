@@ -566,6 +566,9 @@ form *:focus {
 
 .footer-nav {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
 }
 
 .footer-link:link,
