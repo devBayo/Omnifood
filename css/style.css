@@ -488,4 +488,27 @@
   height: 50rem;
   border-radius: 1.1rem;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  overflow: hidden;
+}
+
+.cta-imgbox {
+  background-image: linear-gradient(to right bottom, #eb974e3b, #e67d224d),
+    url('../images/eating.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.cta-textbox {
+  color: #45260a;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+.cta .heading-secondary {
+  color: #45260a;
+  margin-bottom: 2.6rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
