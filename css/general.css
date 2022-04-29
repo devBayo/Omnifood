@@ -117,6 +117,7 @@ body {
 .grid-col-4 {
   grid-template-columns: repeat(4, 1fr);
 }
+
 .grid-col-5 {
   grid-template-columns: repeat(5, 1fr);
 }
