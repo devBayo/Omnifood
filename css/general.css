@@ -94,6 +94,10 @@ body {
   column-gap: 6.4rem;
 }
 
+.grid-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
