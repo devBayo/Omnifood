@@ -12,7 +12,7 @@
 }
 
 @media (max-width: 75em) {
-  /* For Tablet */
+  /* For Landscape Tablet */
   html {
     font-size: 52.25%;
   }
@@ -39,10 +39,15 @@
   }
 
   .main-nav-list {
-      gap: 3.2rem;
+    gap: 3.2rem;
   }
 
-.testimonial-container {
+  .testimonial-container {
     padding: 9.6rem 3.2rem;
   }
+}
+
+@media (max-width: 59em) {
+  /* For Tablet */
+  
 }
