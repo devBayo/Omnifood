@@ -57,6 +57,15 @@
   cursor: pointer;
 }
 
+.icon-mobile-nav {
+  color: #333;
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+.icon-mobile-nav[name='close-outline']{
+  display: none;
+}
 /* ************ */
 /* Hero section */
 /* ************* */
