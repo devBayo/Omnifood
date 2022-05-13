@@ -73,5 +73,18 @@
     margin-top: 3.2rem;
   }
 
-  
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  .meal-description {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
