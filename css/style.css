@@ -502,7 +502,6 @@
   grid-template-columns: 2fr 1fr;
   background: #e67e22;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-  height: 50rem;
   border-radius: 1.1rem;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
