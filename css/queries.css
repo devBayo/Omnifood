@@ -52,4 +52,26 @@
   html {
     font-size: 50%;
   }
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 6.4rem;
+    padding: 0 8rem;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .hero-textbox,
+  .hero-imagebox {
+    text-align: center;
+  }
+
+  .deliver-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+
+  
 }
