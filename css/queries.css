@@ -14,7 +14,7 @@
 @media (max-width: 75em) {
   /* For Landscape Tablet */
   html {
-    font-size: 52.25%;
+    font-size: 56.25%;
   }
 
   .heading-secondary {
@@ -49,5 +49,7 @@
 
 @media (max-width: 59em) {
   /* For Tablet */
-  
+  html {
+    font-size: 50%;
+  }
 }
