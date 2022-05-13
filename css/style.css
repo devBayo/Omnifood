@@ -48,6 +48,15 @@
   color: #cf711f;
 }
 
+.btn-mobile-nav {
+  border: none;
+  background: none;
+}
+
+.btn-mobile-nav:hover{
+  cursor: pointer;
+}
+
 /* ************ */
 /* Hero section */
 /* ************* */
