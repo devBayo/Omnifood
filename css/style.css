@@ -51,6 +51,7 @@
 .btn-mobile-nav {
   border: none;
   background: none;
+  display: none;
 }
 
 .btn-mobile-nav:hover{
