@@ -99,4 +99,18 @@
   .btn--form {
     margin-top: 1.2rem;
   }
+
+  .btn-mobile-nav{
+    display: block;
+  }
+
+  .main-nav{
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* flex-direction: column; */
+  }
 }
