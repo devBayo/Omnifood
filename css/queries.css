@@ -100,11 +100,11 @@
     margin-top: 1.2rem;
   }
 
-  .btn-mobile-nav{
+  .btn-mobile-nav {
     display: block;
   }
 
-  .main-nav{
+  .main-nav {
     background: #fff;
     position: absolute;
     top: 0;
@@ -120,6 +120,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:active {
+    font-size: 3rem;
   }
 }
