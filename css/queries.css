@@ -204,4 +204,20 @@
   .grid {
     row-gap: 4.8rem;
   }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .hero-section {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .logos img {
+    height: 1.2rem;
+  }
+
+  .hero-img{
+    width: 80%;
+  }
 }
