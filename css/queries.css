@@ -217,7 +217,15 @@
     height: 1.2rem;
   }
 
-  .hero-img{
+  .hero-img {
     width: 80%;
+  }
+
+  .step-imgbox:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .step-imgbox:nth-child(6) {
+    grid-row: 5;
   }
 }
