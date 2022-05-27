@@ -104,8 +104,12 @@
     display: block;
   }
 
+  .header {
+    position: relative;
+  }
+
   .main-nav {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.95);
     position: absolute;
     top: 0;
     left: 0;
@@ -114,6 +118,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateX(100%);
+    transition: all 0.5s;
   }
 
   .main-nav-list {
@@ -124,7 +133,22 @@
   }
 
   .main-nav-link:link,
-  .main-nav-link:active {
+  .main-nav-link:visited {
     font-size: 3rem;
+  }
+
+  .nav-open .main-nav {
+    opacity: 100;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
+    display: none;
+  }
+
+  .nav-open .icon-mobile-nav[name='close-outline'] {
+    display: block;
   }
 }
