@@ -152,3 +152,19 @@
     display: block;
   }
 }
+
+@media (max-width: 44em) {
+  /* Below 704px - Smaller tablet */
+  .grid-col-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-col-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diet {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+}
