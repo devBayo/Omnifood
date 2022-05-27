@@ -151,6 +151,10 @@
   .nav-open .icon-mobile-nav[name='close-outline'] {
     display: block;
   }
+
+  .logos img {
+    height: 2.4rem;
+  }
 }
 
 @media (max-width: 44em) {
@@ -166,5 +170,27 @@
   .diet {
     grid-column: 1/-1;
     justify-self: center;
+  }
+
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  .pricing-plan {
+    width: 100%;
+  }
+
+  .grid-footer {
+    grid-template-columns: repeat(6,1fr);
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+
+  .address-col, .logo-col {
+    grid-column: span 3;
   }
 }
