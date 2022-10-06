@@ -72,6 +72,16 @@
   display: none;
 }
 
+.btn-mobile-nav.active .icon-mobile-nav[name='menu-outline']{
+  display: none;
+}
+
+.btn-mobile-nav.active .icon-mobile-nav[name='close-outline']{
+  display: block;
+  z-index: 11;
+  position: relative;
+}
+
 main {
   padding-top: 70px;
 }
