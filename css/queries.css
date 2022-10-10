@@ -105,7 +105,7 @@
   }
 
   .header {
-    position: fixed;
+    position: relative;
   }
 
   .main-nav {
@@ -123,12 +123,6 @@
     pointer-events: none;
     transform: translateX(100%);
     transition: all 0.5s;
-    z-index: 10;
-  }
-  .main-nav.active {
-    transform: translateX(0%);
-    opacity: 1;
-    visibility: visible;
   }
 
   .main-nav-list {
