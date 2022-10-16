@@ -1,7 +1,3 @@
 'use strict'
 
-// Targeting Elements
-
-// Sticky Nav
-
-
+// For sticky nav
