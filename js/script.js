@@ -1,3 +1,3 @@
 'use strict'
 
-// For sticky nav
+// Intersection observer for sticky nav
